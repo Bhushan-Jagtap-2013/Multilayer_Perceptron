@@ -9,8 +9,8 @@ http://archive.ics.uci.edu/ml/datasets/connectionist+bench+(sonar,+mines+vs.+roc
 ## Steps
 
 1. Read dataset
-2. one hot encode expected output
-3. shuffle rows
+2. One hot encode expected output
+3. Shuffle rows
 4. Devide data set into Train and Test data
 5. Define model with tensor flow and train it on Train data, Repeat for 1000 epoch
 6. Test model accuracy on Test data
